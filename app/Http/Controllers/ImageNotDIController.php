@@ -18,6 +18,7 @@ class ImageNotDIController extends Controller
     {
         $storeImageLocal = new ImageLocalStorage();
         $storeImageLocal->store($request);
+
         return back();
     }
 }
